@@ -1,0 +1,4 @@
+def find_first_divisible(arr):
+    for num in arr:
+        if num%3==0 and num%5==0:
+            return num
