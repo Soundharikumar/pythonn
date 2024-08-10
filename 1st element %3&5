@@ -1,4 +1,8 @@
-def find_first_divisible(arr):
-    for num in arr:
-        if num%3==0 and num%5==0:
-            return num
+def find element(nums)
+    return next((num for num in nums if num%3==0 & num%5==0),none)
+n=[10,20,50,80,65]
+result=find element(n)
+if result:
+    print("the first element is divisible by 3 and 5:", result)
+else:
+    print("no such element found")
