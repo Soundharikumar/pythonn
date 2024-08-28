@@ -1,0 +1,9 @@
+def interchange_first_last(lst):
+    
+    if len(lst) > 1:
+    
+        lst[0], lst[-1] = lst[-1], lst[0]
+    elif len(lst) == 1:
+        print("List has only one element. No swap needed.")
+    else:
+        print("List is empty. No swap needed.")
